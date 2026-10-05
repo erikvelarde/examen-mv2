@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notas de Alumnos</string>
+
+    <string name="titulo_lista">Notas de Alumnos</string>
+    <string name="btn_registrar">+ Registrar Alumno / Nota</string>
+    <string name="sin_alumnos">No hay alumnos registrados</string>
+
+    <string name="titulo_registro">Registro de Alumnos y Notas</string>
+    <string name="seccion_alumno">Registrar Alumno</string>
+    <string name="seccion_nota">Registrar Nota</string>
+    <string name="hint_nombre">Nombre del alumno</string>
+    <string name="hint_carrera">Carrera</string>
+    <string name="hint_alumno_id">ID del Alumno</string>
+    <string name="hint_materia">Materia</string>
+    <string name="hint_nota">Nota (0 - 100)</string>
+    <string name="btn_guardar_alumno">Guardar Alumno</string>
+    <string name="btn_guardar_nota">Guardar Nota</string>
+    <string name="btn_volver">Volver a la Lista</string>
+
+    <string name="prefijo_alumno">Alumno: %1$s</string>
+    <string name="prefijo_carrera">Carrera: %1$s</string>
+    <string name="etiqueta_notas">Notas:</string>
+    <string name="sin_notas">Sin notas registradas</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <string name="aprobado">✓ APROBADO</string>
+    <string name="reprobado">✗ REPROBADO</string>
+
+    <string name="toast_alumno_guardado">Alumno guardado</string>
+    <string name="toast_nota_guardada">Nota guardada</string>
+    <string name="toast_alumno_eliminado">Alumno eliminado</string>
+    <string name="toast_nota_eliminada">Nota eliminada</string>
+
+    <string name="err_nombre">El nombre es obligatorio</string>
+    <string name="err_carrera">La carrera es obligatoria</string>
+    <string name="err_id">El ID del alumno es obligatorio</string>
+    <string name="err_materia">La materia es obligatoria</string>
+    <string name="err_nota_vacia">La nota es obligatoria</string>
+    <string name="err_nota_rango">La nota debe estar entre 0 y 100</string>
+    <string name="err_no_existe">El alumno no existe</string>
+
+    <string name="desc_eliminar_nota">Eliminar nota</string>
+</resources>

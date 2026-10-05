@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NotasAlumnos" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/morado</item>
+        <item name="colorPrimaryDark">@color/morado_oscuro</item>
+        <item name="colorSecondary">@color/morado_oscuro</item>
+        <item name="android:windowBackground">@color/fondo</item>
+    </style>
+</resources>

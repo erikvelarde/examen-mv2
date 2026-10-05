@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollRegistro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTituloRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/titulo_registro"
+            android:textColor="@color/morado_oscuro"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_seccion"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/seccion_alumno"
+                    android:textColor="@color/morado_oscuro"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/hint_nombre"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName|textCapWords"
+                    android:padding="12dp"
+                    android:textColor="@color/texto"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etCarrera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/hint_carrera"
+                    android:importantForAutofill="no"
+                    android:inputType="text|textCapWords"
+                    android:padding="12dp"
+                    android:textColor="@color/texto"
+                    android:textSize="15sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGuardarAlumno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/btn_guardar_alumno"
+                    android:textColor="@color/blanco"
+                    app:backgroundTint="@color/morado" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_seccion"
+                    android:paddingStart="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/seccion_nota"
+                    android:textColor="@color/morado_oscuro"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etAlumnoId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/hint_alumno_id"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColor="@color/texto"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etMateria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/hint_materia"
+                    android:importantForAutofill="no"
+                    android:inputType="text|textCapWords"
+                    android:padding="12dp"
+                    android:textColor="@color/texto"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etNota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_input"
+                    android:hint="@string/hint_nota"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:padding="12dp"
+                    android:textColor="@color/texto"
+                    android:textSize="15sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGuardarNota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/btn_guardar_nota"
+                    android:textColor="@color/blanco"
+                    app:backgroundTint="@color/morado" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/btn_volver"
+            android:textColor="@color/morado_oscuro"
+            app:backgroundTint="@color/blanco"
+            app:strokeColor="@color/morado"
+            app:strokeWidth="1dp" />
+    </LinearLayout>
+</ScrollView>

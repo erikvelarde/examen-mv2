@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:background="@drawable/bg_nota"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvMateria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/texto"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="46dp"
+        android:gravity="end"
+        android:textColor="@color/texto"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:minWidth="92dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnEliminarNota"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="4dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/desc_eliminar_nota"
+        android:src="@drawable/ic_delete" />
+</LinearLayout>
